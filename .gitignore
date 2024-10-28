@@ -1,1 +1,8 @@
-note.txt
+#Ignore build directories
+build/
+
+#ignore IDE files
+.vscode/
+
+#ignore my notes file
+/note.txt
