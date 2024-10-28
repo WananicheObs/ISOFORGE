@@ -1,0 +1,24 @@
+to do the build folder:
+    cmake -S . -B build/ -G "Visual Studio 17 2022"
+
+to build the project:
+    cd .\build\
+    msbuild.exe .\test.sln
+    msbuild.exe .\test.sln /p:Configuration=Release
+
+to launch it:
+    cd .\debug\
+    start test.exe
+        or
+    .\test.exe
+
+git:
+    git init //create a git repository
+    git add * //add files to the repository
+
+    //sink github with git
+    git remote add origin https://github.com/WananicheObs/ISOFORGE.git
+    git branch -M main
+    git push -u origin main
+
+    git commit -am 'Initial commit'
