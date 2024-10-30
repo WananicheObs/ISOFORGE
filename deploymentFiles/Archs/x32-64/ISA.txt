@@ -1,0 +1,4 @@
+x32-64 instruction descriptions
+registers:
+mnemonics:
+ADD CALL CMP DEC DIV HLT IDIV IMUL INC INT INTO IRET JNZ JMP LEA MOV MUL POP PUSH RET RETIN SUB XOR

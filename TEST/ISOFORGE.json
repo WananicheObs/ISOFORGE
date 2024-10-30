@@ -1,0 +1,12 @@
+{
+    "project_info": {
+        "architecture": "x86_64",
+        "source_files": ["src/main.ifg"],
+        "libraries": ["x86_64-Math"]
+    },
+    "build_setting": {
+        "build_directory": "build/",
+        "output_file": "output/test.iso",
+        "optimization_level": "-02"
+    }
+}
